@@ -10,6 +10,8 @@ from sqlalchemy.orm import relationship, sessionmaker
 engine = create_engine('mysql+pymysql://root:!andrei2002@localhost:3306/proiect')
 Base = sqlalchemy.orm.declarative_base()
 
+#ala bala
+
 class Student(Base):
     __tablename__ = 'studenti'
     idstudent = Column(Integer, primary_key=True)
